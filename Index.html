@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>usbank</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header" class="flex">
+            <div id="headerInfo" class="flex">
+                <div class="infoItem text">
+                    <span>&#9668</span> Back to Account
+                </div>
+                <div class="infoItem">
+                    <img src="logo.png" height="30px" />
+                </div>
+                <div class="bar">|</div>
+                <div>
+                    <img src="rewards.png" height="40px" />
+                </div>
+            </div>
+            <div id="navigation">
+                <div class="navigationItem flex">
+                    <div class="menuItem">
+                        <div> <img src="profile.png" height=30px"></div>
+                        <div>Profile</div>
+                    </div>
+                    <div class="menuItem">
+                        <div><img src="cart.png" height="30px"></div>
+                        <div>Cart</div>
+                    </div>
+                    <div class="menuItem">
+                        <div><img src="help.png" height="30px"> <span>&#9207</span></div>
+                        <div>Help</div>
+                    </div>
+                    <div class="menuItem">
+                        <div><img src="Logout.png" height="30px"></div>
+                        <div>Log out</div>
+                    </div>
+                </div>
+                <div class="navigationItem">
+                    <div align="right" class="text">Welcome Rakesh,</div>
+                    <div align="right" class="text"><b>123,567 Points</b></div>
+                </div>
+            </div>
+        </div>
+        <div id="top-navigation">
+            <div id="navigation-bar" class="flex">
+                <div class="navigation-item dropdown">
+                    <span>Merchandise<span>&#9207</span></span>
+                    <a href="#">
+                        <div class="dropdown-content">Cameras</div>
+                    </a>
+                </div>
+                <div class="navigation-item dropdown">
+                    <span>Gift Cards<span>&#9207</span></span>
+                    <a href="#">
+                        <div class="dropdown-content">Options</div>
+                    </a>
+                </div>
+                <div class="navigation-item">Magazines</div>
+                <div class="navigation-item">Cash Back</div>
+                <div class="navigation-item">Events</div>
+                <div class="navigation-item">Travel</div>
+                <div class="navigation-item dropdown">
+                    <span>More...<span>&#9207</span></span>
+                    <a href="#">
+                        <div class="dropdown-content">Account</div>
+                    </a>
+                </div>
+            </div>
+            <div class="search-container">
+                <form>
+                    <input type="text" placeholder="Search.." name="search">
+                </form>
+            </div>
+        </div>
+        <div id="list"><a href="#">Home</a> / <a href="#"> Merchandise</a> / <a href="#">Electronics</a> / <a
+                href="#"><b>Cameras</b></a></div>
+        <div class="description">
+            <div class="heading">
+                Cameras
+            </div>
+            <div class="heading-list">
+                <ul class="list">
+                    <li class="list-items line">Instant</li>
+                    <li class="list-items line">DSLR</li>
+                    <li class="list-items" style="padding-top: 10px;height: 40px;">Convenience, Security & Collision Avoidance</li>
+                    <li class="list-items line">Action</li>
+                    <li class="list-items line">Camcorder</li>
+                    <li class="list-items line">Drones</li>
+                    <li class="list-items" style="margin-left: 420px;padding-top: 10px;height: 40px;">Super Mega Pixel Ultimate Zoom</li>
+                    <li class="list-items line">Wearables</li>
+                </ul>
+            </div>
+        </div><br />
+        <div id="content">
+            <div class="content-filter">
+                <div class="content-heading">
+                    <b>Filter Results</b>
+                    <a href="#">clear all filters</a>
+                </div>
+                <div>
+                    <div id="list1" class="dropdown-check-list" tabindex="100">
+                        <span class="anchor">Brand</span>
+                        <ul class="items" style="color: black;">
+                          <li><input type="checkbox" />Canon </li>
+                          <li><input type="checkbox" />Fuji</li>
+                          <li><input type="checkbox" />Nikon </li>
+                          <li><input type="checkbox" />Pentax </li>
+                          <li><input type="checkbox" />Minola </li>
+                          <li><input type="checkbox" />Sony </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div id="list2" class="dropdown-check-list" tabindex="100">
+                        <span class="anchor">Points</span>
+                        <ul class="items" style="color: black;">
+                          <li><input type="checkbox" />0-500 </li>
+                          <li><input type="checkbox" />500-1000</li>
+                          <li><input type="checkbox" />1,000-5,000</li>
+                          <li><input type="checkbox" />5,000-10,000 </li>
+                          <li><input type="checkbox" />10,000-1,00,000</li>
+                          <li><input type="checkbox" />>1,00,000</li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+            <div class="content-items">
+                <div class="sortby">
+                    <div class="options">
+                        <select name="sort" id="sortby" class="classic">
+                            <option value="Placeholder">Sort by:Placeholder</option>
+                            <option value="High">Sort by:High to Low</option>
+                            <option value="Low">Sort by:Low to High</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <img src="nikon.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a short line of placeholder copy.It shows 2 lines of copy.
+                        </div>
+                        <div class="price flex">
+                            <div class="dispoints">
+                                <div><b>7000 Points</b></div>
+                                <div class="orpoints"><s><b>10000 Points</b></s></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon1.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a short line of placeholder copy.It shows 3 lines of copy. Cap the amount of copy here...
+                        </div>
+                        <div class="price flex price2">
+                            <div class="dispoints">
+                                <div style="margin-top: 10px;"><b>8000 Points</b></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon2.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a one line of loren ipsum.
+                        </div>  
+                        <div class="price flex price3">
+                            <div class="dispoints">
+                                <div><b>10000 Points</b></div>
+                                <div class="orpoints"><s><b>14000 Points</b></s></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a short line of placeholder copy.It shows 2 lines of copy.
+                        </div>
+                        <div class="price flex">
+                            <div class="dispoints">
+                                <div><b>7000 Points</b></div>
+                                <div class="orpoints"><s><b>10000 Points</b></s></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon1.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a short line of placeholder copy.It shows 3 lines of copy. Cap the amount of copy here...
+                        </div>
+                        <div class="price flex price2">
+                            <div class="dispoints">
+                                <div style="margin-top: 10px;"><b>8000 Points</b></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon2.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a one line of loren ipsum.
+                        </div>
+                        <div class="price flex price3">
+                            <div class="dispoints">
+                                <div><b>10000 Points</b></div>
+                                <div class="orpoints"><s><b>14000 Points</b></s></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a short line of placeholder copy.It shows 2 lines of copy.
+                        </div>
+                        <div class="price flex">
+                            <div class="dispoints">
+                                <div><b>7000 Points</b></div>
+                                <div class="orpoints"><s><b>10000 Points</b></s></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon1.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a short line of placeholder copy.It shows 3 lines of copy. Cap the amount of copy here...
+                        </div>
+                        <div class="price flex price2">
+                            <div class="dispoints">
+                                <div style="margin-top: 10px;"><b>8000 Points</b></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="nikon2.png" height="250px" width="250px">
+                        <div class="item-name">
+                            <b>Nikon DSLR Camera with 1.8-200mm Zoom</b>
+                        </div>
+                        <div class="item-desc">
+                            This is a one line of loren ipsum.
+                        </div>
+                        <div class="price flex price3">
+                            <div class="dispoints">
+                                <div><b>10000 Points</b></div>
+                                <div class="orpoints"><s><b>14000 Points</b></s></div>
+                            </div>
+                            <div class="details">
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pages">
+                    Items per page: 12 | 25 | 50 | 100
+                </div>
+                <br/>
+                <div class="pageno center"> <span>&#9668</span> Page 1 of 200 <span>&#9654</span>  </div>
+            </div>
+        </div>
+        <hr>
+        <div id="Related">
+            <div class="related-heading">
+                Related Items
+            </div>
+            <div class="Related-items flex">
+                <div class="Related-item">
+                    <img src="canon.png" width="150" height="150">
+                    <div class="info">Canon mark 5d mark ii</div>     
+                    <div class="item-price">12000 Points</div>               
+                </div>
+                <div class="Related-item">
+                    <img src="sony.png" width="150" height="150">
+                    <div class="info">Sony a7 full-frame mirrorless camera</div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="Canon1.png" width="150" height="150">
+                    <div class="info">Canon powershot sx740</div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="fuji.png" width="150" height="150">
+                    <div class="info">Fujifilm x100f 24.3 mp aps-c</div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="pana.png" width="150" height="150">
+                    <div class="info">Panasonic lumix gh6 </div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="sony1.png" width="150" height="150">
+                    <div class="info">Sony dscw800 digital camera</div>  
+                    <div class="item-price">12000 Points</div>                  
+                </div>
+            </div>
+            <div class="nav"><span style="margin:5px">&#9668</span><span style="margin:5px">&#11044</span><span style="color: gray;">&#11044</span><span style="margin:5px">&#9654</span></div>
+        </div>
+        <hr/>
+        <div id="Related">
+            <div class="related-heading">
+                Recently Viewed Items
+            </div>
+            <div class="Related-items flex">
+                <div class="Related-item">
+                    <img src="memorycard.png" width="150" height="150">
+                    <div class="info">Canon mark 5d mark ii</div>     
+                    <div class="item-price">12000 Points</div>               
+                </div>
+                <div class="Related-item">
+                    <img src="amazondot.png" width="150" height="150">
+                    <div class="info">Sony a7 full-frame mirrorless camera</div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="watch.png" width="150" height="150">
+                    <div class="info">Canon powershot sx740</div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="smartspeaker.png" width="150" height="150">
+                    <div class="info">Fujifilm x100f 24.3 mp aps-c</div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="camera.png" width="150" height="150">
+                    <div class="info">Panasonic lumix gh6 </div>
+                    <div class="item-price">12000 Points</div>
+                </div>
+                <div class="Related-item">
+                    <img src="vloggingcamera.png" width="150" height="150">
+                    <div class="info">Sony dscw800 digital camera</div>  
+                    <div class="item-price">12000 Points</div>                  
+                </div>
+            </div>
+            <div class="nav"><span style="margin:5px">&#9668</span><span style="margin:5px">&#11044</span><span style="color: gray;">&#11044</span><span style="margin:5px">&#9654</span></div>
+        </div>
+        <div class="footer">
+            <div class="footer-items">
+                <ul class="terms">
+                    <li class="items">Program Rules</li> |
+                    <li class="items">Privacy</li> |
+                    <li class="items">FAQs</li> |
+                    <li class="items">Contact Us</li>
+                </ul>
+                <div class="logos">
+                    <img src="logo.png" alt="logo">
+                    <span>|</span>
+                    <img src="rewards.png" alt="logo" />
+                </div>
+            </div>
+            <div class="line"><hr></div>
+            <div class="footer-end">
+                <p class="news">&#169 2019 U.S. Bank</p>
+                <p class="news">The creditor and issuer of your card is U.S. Bank National Association, pursuant to a license from Visa U.S.A. Inc.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var checkList = document.getElementById('list1');
+        checkList.getElementsByClassName('anchor')[0].onclick = function(evt) {
+        if (checkList.classList.contains('visible'))
+            checkList.classList.remove('visible');
+        else
+            checkList.classList.add('visible');
+        }
+        var checkList1 = document.getElementById('list2');
+        checkList1.getElementsByClassName('anchor')[0].onclick = function(evt) {
+        if (checkList1.classList.contains('visible'))
+            checkList1.classList.remove('visible');
+        else
+            checkList1.classList.add('visible');
+        }
+        </script>
+</body>
+</html>
